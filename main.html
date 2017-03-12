@@ -1,0 +1,50 @@
+<html>
+<head>
+<link rel="stylesheet" type= "Text/CSS" href="CAVINCStyle.css"> </link>
+</head>
+<body>
+<div id="NAV">
+<div id="NavOP1">
+<p id="Navbar"> Home </p>
+</div>
+<div id="NavOP2">
+<p id="Navbar"> About </p>
+</div>
+<div id="NavOP3">
+<p id="Navbar"> Projects </p>
+</div>
+<div id="date">
+
+<script>
+	function clock() {
+	var now = new Date();
+	var time = now.toLocaleTimeString();
+	var year = now.getYear();
+	var month = now.getMonth();
+	var day = now.getDay();
+	var hours = now.getHours();
+	var minutes = now.getMinutes();
+	var seconds = now.getSeconds();
+
+	//console.log(now);
+	document.getElementById('Clock').innerHTML = now;
+	
+	};	
+setInterval(clock, 1);
+</script>
+<p id="Clock"> </p>
+</div>
+</div>
+
+<div id="Main">
+<div id="image">
+<div id="Text">
+</div>
+</div>
+
+</div>
+<div id="footer">
+
+</div>
+</body>
+</html>
