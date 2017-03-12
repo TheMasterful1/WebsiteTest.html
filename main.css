@@ -1,0 +1,49 @@
+html {
+background-color: black;	
+	
+}	
+#Nav {
+	background-image: url('NavImage.PNG');
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	border-bottom: solid;
+	border-bottom-color: orange;
+	height: 100px;
+}
+#NavOP1 {
+	position: relative;
+	height: 100px;
+	text-align: center;
+	width: 10%;
+	float: left;
+}	
+#NavOP2 {
+	position: relative;
+	height: 100px;
+	text-align: center;
+	width: 10%;
+	float: left;
+}	
+#NavOP3 {
+	position: relative;
+	height: 100px;
+	text-align: center;
+	width: 10%;
+	float: left;
+}	
+#date {
+	position: relative;
+	text-align: center;
+	width: 10%;
+	height: 100px;
+	float: right;
+}	
+#Navbar {
+	font-size: 30px;
+	color: orange;
+}
+#Clock {
+	font-size: 15px;
+	color: orange;
+}
